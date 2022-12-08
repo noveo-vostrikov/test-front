@@ -75,7 +75,7 @@ const DoctorBooking: FC<DoctorBookingProps> = ({ doctor, setBookedDoctor }) => {
               : <>
                 {availabilities.length === 0
                   ? 'Sorry, the doctor is busy'
-                  : <Form.Select value={selectedValue} onChange={handleOnChange}>{options}</Form.Select>
+                  : <Form.Select role="select_date" value={selectedValue} onChange={handleOnChange}>{options}</Form.Select>
                 }
              </>
             }
