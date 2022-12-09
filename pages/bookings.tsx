@@ -13,7 +13,7 @@ const Bookings: NextPage = () => {
   return (
       <div>
         <Head>
-          Booking Result
+          <title>Booking Result</title>
         </Head>
         <ApplicationLayout>
           {isEdited ? <DoctorBookingResult {...result} /> : <>You haven&apos;t made an appointment with the doctor yet</>}

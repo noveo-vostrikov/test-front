@@ -11,7 +11,7 @@ const Availabilities: NextPage = () => {
   return (
     <div>
       <Head>
-        Doctors availabilities
+        <title>Doctors availabilities</title>
       </Head>
       <ApplicationLayout>
         {isLoading ? 'Loading data' : <DoctorList doctors={doctors} />}
