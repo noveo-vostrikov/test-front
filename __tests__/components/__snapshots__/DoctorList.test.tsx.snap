@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DoctorInfo component Snapshot test 1`] = `
+exports[`DoctorList component Snapshot test 1`] = `
 [
   <div
     className="root m-2 card"

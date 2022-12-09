@@ -62,12 +62,10 @@ describe('DoctorList component', () => {
 
   test('Test behaviour after booking clicking', async () => {
     const component = renderWithStore(<DoctorList doctors={doctors} />)
-    screen.debug()
 
     const firstRender = component.asFragment()
     const button = component.getAllByText('Booking')
     await userEvent.click(button[1])
-    screen.debug()
 
     expect(await component.findByText('Booking the doctor Dr. Abdonie Adam')).toBeInTheDocument()
     expect(firstRender).not.toBe(component.asFragment())
