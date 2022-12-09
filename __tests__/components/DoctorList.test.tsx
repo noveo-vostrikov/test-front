@@ -1,4 +1,4 @@
-import { render, cleanup, screen } from '@testing-library/react'
+import { render, cleanup } from '@testing-library/react'
 import rerender from 'react-test-renderer'
 import userEvent from '@testing-library/user-event'
 
